@@ -1,0 +1,987 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-color: #AB7C49;
+    display: flex;
+    width: 100%;
+    h1 {
+        display: none;
+    }
+    .logo {
+        width: 30%;
+        a {
+            width: 100%;
+            margin-top: 2%;
+            .logo {
+                width: 100%;
+            }
+        }
+    }
+    .menu {
+        width: 70%;
+        margin-left: 5%;
+        margin-top: 1.5%;
+        ul {
+            width: 100%;
+            padding: 2%;
+            li{
+                display: inline;
+                width: 100%;
+                padding-right: 10%;
+                a {
+                    text-decoration: none;
+                    font-size: 1em;
+                    font-weight: 600;
+                    color: #FDEEE2;
+                    &:hover {
+                        color: #F4DBC5;
+                    }
+                }
+                i {
+                    color: #FDEEE2;
+                }
+            }
+        }
+    }
+    .menuHamburguesa {
+        background-color: #AB7C49;
+        display: none;
+        position: relative;
+        height: 50px;
+        width: 20%;
+        margin-left: 45%;
+        .desplegable {
+            width: 10%;
+            height: 50px;
+            &:hover .dropdown {
+                display: block;
+            }
+            i {
+                position: absolute;
+                left: 50%;
+                top: 38%;
+                color: #FDEEE2;
+            }
+            .dropdown {
+                display: none;
+                width: 100%;
+                position: absolute;
+                top: 40px;
+                right: 65px;
+                padding: 2%;
+                background-color: #FDEEE2;
+                li{
+                    display: block;
+                    padding: 4% 2%;
+                    a {
+                        text-decoration: none;
+                        font-size: 1em;
+                        font-weight: 600;
+                        color: rgb(2, 2, 2);
+                    }
+                }  
+            }
+        }
+        .carrito {
+            position: absolute;
+            top: 35%;
+            left: 15%;
+            color: #FDEEE2;
+        }
+    }
+}
+
+.flyer {
+    background-color: #AB7C49;
+    display: flex;
+    width: 100%;
+    .bannerHero {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        .imgBanner {
+            width: 100%;
+        }
+    }
+}
+
+.aboutUs {
+    margin: 5% 0;
+    width: 70%;
+    margin-left: 15%;
+    display: flex;
+    padding-bottom: 5%;
+    border-bottom: #2E2C27 solid 3px;
+    .text {
+        width: 40%;
+        margin-left: 5%;
+        .titulo {
+            position: relative;
+            height: 100px;
+            p {
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: 100;
+                font-weight: 900;
+                font-size: 2em;
+                color: #47443c;
+            }
+            .cursiva {
+                position: absolute;
+                top: 15%;
+                left: 15%;
+                z-index: 10;
+                font-size: 2.5em;
+                font-family: Pacifico;
+                color: #AB7C49;
+            }
+        }
+        p {
+            font-size: 1em;
+            font-weight: 500;
+        }
+    }
+    .box {
+        width: 50%;
+        img {
+            width: 100%;
+            margin-top: 5%;
+        }
+    }
+}
+
+.beneficios {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+    .col1 {
+        width: 20%;
+        .box {
+            display: flex;
+            justify-content: space-between;
+            padding-top: 5%;
+            img {
+                width: 20%;
+                height: 20%;
+                padding-top: 15%;
+            }
+            .caja {
+                width: 70%;
+                .titulo {
+                    font-size: 1em;
+                    font-weight: 700;
+                    color: #c8a543;
+                    text-align: right;
+                }
+                .texto {
+                    font-size: .8em;
+                    text-align: right;
+                }
+            }
+        }
+    }
+    .col2 {
+        width: 20%;
+        padding-top: 5%;
+        padding-right: 5%;
+        img {
+            width:130%;
+        }
+    }
+    .col3 {
+        width: 20%;     
+        .box {
+            display: flex;
+            justify-content: space-between;
+            padding-top: 5%;
+            img {
+                width: 20%;
+                height: 20%;
+                padding-top: 10%;
+            }
+            .image {
+                width: 20%;
+                height: 20%;
+                padding-top: 25%;
+            };
+            .caja {
+                width: 70%;
+                .titulo {
+                    font-size: 1em;
+                    font-weight: 700;
+                    color: #c8a543;
+                    text-align: left;
+                }
+                .texto {
+                    font-size: .8em;
+                    text-align: left;
+                }
+            }
+        }
+    }
+    .col4 {
+        display: none;
+        img {
+            width:80%;
+        }
+    }
+}
+
+.infoBlends {
+    width: 80%;
+    justify-content: center;
+    margin-bottom: 10%;
+    .titulos {
+        position: relative;
+        height: 100px;
+        .titulo {
+            position: absolute;
+            left: 635px;
+            font-size: 2em;
+            font-weight: 700;
+            color: #47443c;
+            z-index: 10;
+        }
+        .titulo2 {
+            position: absolute;
+            left: 605px;
+            top: 15px;
+            font-family: Pacifico;
+            font-size: 3em;
+            color: #AB7C49;
+        }
+    }
+    .divBlends {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 20%;
+        justify-content: space-around;
+        .blend {
+            width: 30%;
+            padding-left: 5%;
+            img {
+                width: 100%;
+            }
+            a {
+                text-decoration: none;
+                color: #c8a543;
+                font-size: 1.5em;
+                font-weight: 500;
+                text-align: center;
+                &:hover {
+                    color: #47443c;
+                }
+                p {
+                    &:hover {
+                        border-bottom: #47443c solid 5px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+.titles {
+    display: flex;
+    margin: 1% 15%;
+    border-bottom: #2E2C27 solid 3px;
+    justify-content: space-between;
+    h2 {
+        font-size: 2em;
+        color: #2E2C27;
+    }
+    a {
+        text-decoration: none;
+        color: #2E2C27;
+        font-weight: 700;
+        margin-top: 1%;
+        &:hover {
+            color: #AB7C49;
+            cursor: pointer;
+        }
+    }
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+    padding: 5%;
+    background-color: #AB7C49;
+    .contenedor3 {
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        a img {
+            width: 100%;
+        }
+        .redesSociales {
+            padding-top: 20%;
+            .titulosfooter {
+                margin-bottom: 2%;
+                font-size: 1.2em;
+                color: #FDEEE2;
+                border-bottom: #FDEEE2 solid 3px;
+            }
+            .instagram {
+                display: flex;
+                padding-bottom: 5%;
+                padding-top: 2%;
+                a {
+                    width: 20%;
+                    height: 80%;
+                    img {
+                        width: 50%;
+                    }
+                }
+                p {
+                    font-size: 1em;
+                    color: #FDEEE2;
+                    
+                }
+            }
+            .facebook {
+                display: flex;
+                padding-bottom: 5%;
+                a {
+                    width: 20%;
+                    height: 50%;
+                    img {
+                        width: 50%;
+                    }
+                }
+                p {
+                    font-size: 1em;
+                    color: #FDEEE2;
+                }
+            }
+            .twitter {
+                display: flex;
+                padding-bottom: 5%;
+                a {
+                    width: 20%;
+                    height: 50%;
+                    img {
+                        width: 50%;
+                    }
+                }
+                p {
+                    font-size: 1em;
+                    color: #FDEEE2;
+                }
+            }
+        }     
+    }
+    .linksRapidos {
+        width: 30%;
+        .link {
+            display: block;
+            text-align: center;
+            font-size: 1em;
+            font-weight: 600;
+            padding: 4% 8%;
+            a {
+                text-decoration: none;
+                color: #FDEEE2;
+                &:hover {
+                    font-weight: 700;
+                    color: #FDEEE2;
+                    border-bottom: #FDEEE2 solid 3px;
+                }
+            }
+        }
+    }
+    .location {
+        width: 30%;
+        .titulosfooter {
+            margin-bottom: 2%;
+            font-size: 1.2em;
+            color: #FDEEE2;
+            border-bottom: #FDEEE2 solid 3px;
+        }
+        .locacion {
+            display: flex;
+            width: 100%;
+            padding-bottom: 5%;
+            img {
+                width: 15%;
+                height: 7%;
+                padding-right: 10%;
+                padding-top: 2%;
+            }
+            p {
+                width: 80%;
+                font-size: 1em;
+                color: #FDEEE2;
+            }  
+        }
+        .whatsup {
+            display: flex;
+            padding-top: 2%;
+            img {
+                padding-right: 10%;
+                width: 15%;
+                height: 15%;
+            }
+            p {
+                font-size: 1em;
+                color: #FDEEE2;
+                padding-top: 2%;
+            }
+        }
+    }
+}
+
+@media (max-width: 1440px) {
+    header {
+        .menu {
+            ul {
+                li {
+                    a {
+                        font-size: 1em;
+                    }
+                }
+            }
+        }
+    }
+    .flyer {
+        background-color: #AB7C49;
+        width: 100%;
+    }
+
+    .aboutUs {
+        width: 80%;
+        margin-left: 10%;
+        .text {
+            .titulo {
+                p {
+                    font-size: 2.5em;
+                }
+                .cursiva {
+                    font-size: 3em;
+                    top: 20%;
+                }
+            }
+            p {
+                font-size: 1.2em;
+            }
+        }
+        .box {
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    .beneficios {
+        width: 100%;
+        justify-content: center;
+        .col1 {
+            width: 30%;
+            .box {
+                img {
+                    padding-top: 0%;
+                }
+                .caja {
+                    width: 70%;
+                    .titulo {
+                        font-size: 1.5em;
+                    }
+                    .texto {
+                        font-size: 1em;
+                    }
+                }
+            }
+        }
+        .col2 {
+            width: 20%;
+        }
+        .col3 {
+            width: 30%;
+            .box {
+                padding-top: 7%;
+                img {
+                    padding-top: 0%;
+                    width: 15%;
+                }
+                .image {
+                    padding-top: 5%;
+                };
+                .caja {
+                    width: 70%;
+                    .titulo {
+                        font-size: 1.5em;
+                    }
+                    .texto {
+                        font-size: 1em;
+                    }
+                }
+            }
+        }
+    }
+    .infoBlends {
+        .titulos {
+            .titulo {
+                left: 680px;
+            }
+            .titulo2 {
+                left: 650px;
+            }
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    header {
+        .menu {
+            ul {
+                li {
+                    padding-right: 5%;
+                    a {
+                        font-size: 1em;
+                    }
+                }
+            }
+        }
+    }
+
+    .aboutUs {
+        width: 100%;
+        margin-left: 0%;
+        .text {
+            .titulo {
+                p {
+                    font-size: 2.5em;
+                }
+                .cursiva {
+                    font-size: 3em;
+                    top: 20%;
+                }
+            }
+            p {
+                font-size: 1em;
+            }
+        }
+        .box {
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    .beneficios {
+        width: 100%;
+        justify-content: center;
+        .col1 {
+            width: 35%;
+            .box {
+                .caja {
+                    .titulo {
+                        font-size: 1.2em;
+                    }
+                    .texto {
+                        font-size: .8em;
+                    }
+                }
+            }
+        }
+        .col2 {
+            width: 20%;
+        }
+        .col3 {
+            width: 35%;
+            .box {
+                padding-top: 5%;
+                .caja {
+                    .titulo {
+                        font-size: 1.2em;
+                    }
+                    .texto {
+                        font-size: 0.8em;
+                    }
+                }
+            }
+        }
+    }
+    .infoBlends {
+        .titulos {
+            .titulo {
+                left: 460px;
+            }
+            .titulo2 {
+                left: 430px;
+            }
+        }
+        .divBlends {
+            .blend {
+                a {
+                    font-size: 1.2em;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        .menu {
+            display: none;
+        }
+        .menuHamburguesa {
+            display: block;
+        }
+    }
+
+    .aboutUs {
+        .text {
+            .titulo {
+                p {
+                    font-size: 2em;
+                }
+                .cursiva {
+                    font-size: 2.5em;
+                    top: 20%;
+                }
+            }
+            p {
+                font-size: .8em;
+            }
+        }
+    }
+    .beneficios {
+        width: 100%;
+        justify-content: center;
+        .col1 {
+            .box {
+                justify-content: center;
+                img {
+                    width: 15%;
+                    padding-top: 5%;
+                    margin-left: 5%;
+                }
+                .caja {
+                    .titulo {
+                        font-size: 1em;
+                        margin-bottom: 0rem;
+                    }
+                    .texto {
+                        font-size: 0.8em;
+                    }
+                }
+            }
+        }
+        .col2 {
+            img {
+                padding-top: 50%;
+            }
+        }
+
+        .col3 {
+            .box {
+                padding-top: 5%;
+                justify-content: center;
+                img {
+                    width: 10%;
+                    padding-top: 5%;
+                    margin-right: 5%;
+                }
+                .image {
+                    width: 10%;
+                    padding-top: 10%;
+                    margin-right: 5%;
+                }
+                .caja {
+                    .titulo {
+                        font-size: 1em;
+                        margin-bottom: 0rem;
+                    }
+                    .texto {
+                        font-size: 0.8em;
+                    }
+                }
+            }
+        }
+    }
+    .infoBlends {
+        .titulos {
+            .titulo {
+                left: 340px;
+            }
+            .titulo2 {
+                left: 310px;
+            }
+        }
+        .divBlends {
+            .blend {
+                a {
+                    font-size: 1em;
+                }
+            }
+        }
+    }
+
+    .titles {
+        h2 {
+            font-size: 1.2em;
+        }
+    }
+
+    footer {
+        .contenedor3 {
+            a {
+                img {
+                    height: 100%;
+                }
+            }
+            .redesSociales {
+                .instagram, .facebook, .twitter {
+                    a {
+                        img {
+                            width: 70%;
+                        }
+                    }
+                    p {
+                        font-size: 0.8em;
+                    }
+                }
+            }
+        }
+        .location {
+            .locacion {
+                img {
+                    width: 20%;
+                }
+                p {
+                    font-size: .8em;
+                }
+            }
+            .whatsup {
+                img {
+                    width: 20%;
+                    height: 20%;
+                }
+                p {
+                    font-size: .8em;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        .logo {
+            width: 40%;
+        }
+        .menuHamburguesa {
+            .desplegable {
+                .dropdown {
+                    width: 150%;
+                    right: 34%;
+                }
+            }
+        }
+    }
+
+    .aboutUs {
+        flex-direction: column-reverse;
+        .box {
+            width: 100%;
+            img {
+                width: 80%;
+                margin-left: 10%;
+            }
+        }
+        .text {
+            width: 90%;
+            .titulo {
+                p {
+                    font-size: 1.5em;
+                }
+            }
+        }
+    }
+
+    .beneficios {
+        flex-wrap: wrap;
+        .col1 {
+            width: 50%;
+            .box {
+                img {
+                    width: 20%;
+                }
+                .caja {
+                    .titulo{
+                        text-align: right;
+                    }
+                    .texto {
+                        text-align: right;
+                        font-size: .7em;
+                    }
+                }
+            }
+        }
+        .col2 {
+            width: 40%;
+            img {
+                padding-top: 20%;
+            }
+        }
+        .col3 {
+            width: 50%;
+            .box {
+                display: flex;
+                flex-direction: row-reverse;
+                justify-content: space-between;
+                img {
+                    width: 15%;
+                }
+                .image {
+                    width: 15%;
+                }
+                .caja {
+                    .titulo{
+                        text-align: right;
+                    }
+                    .texto {
+                        text-align: right;
+                        font-size: .7em;
+                    }
+                }
+            }
+        }
+        .col4 {
+            display: block;
+            width: 40%;
+            padding-left: 4%;
+            padding-top: 5%;
+            img {
+                width: 80%;
+                padding-top: 20%;
+            }
+        }
+    }
+
+    .infoBlends {
+        width: 100%;
+        .titulos {
+            .titulo {
+                left: 210px;
+            }
+            .titulo2 {
+                left: 180px;
+            }
+        }
+        .divBlends {
+            margin-left: 0%;
+        }
+    }
+
+    .titles {
+        margin: 1% 2%;
+        h2 {
+            font-size: 1em;
+            margin-bottom: 0rem;
+        }
+        a {
+            margin-top: 0%;
+        }
+    }
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+        .contenedor3 {
+            width: 60%;
+            .redesSociales {
+                padding-top: 3%;
+                .titulosfooter {
+                    display: none;
+                }
+                .instagram {
+                    p {
+                        font-size: 0.8em;
+                    }
+                    a {
+                        width: 15%;
+                        padding-left: 0;
+                        img {
+                            width: 50%;
+                        }
+                    }
+                }
+                .facebook {
+                    p {
+                        font-size: 0.8em;
+                    }
+                    a {
+                        width: 15%;
+                        padding-left: 0;
+                        img {
+                            width: 50%;
+                        }
+                    }
+                }
+                .twitter {
+                    p {
+                        font-size: 0.8em;
+                    }
+                    a {
+                        width: 15%;
+                        padding-left: 0;
+                        img {
+                            width: 50%;
+                        }
+                    }
+                }
+            }
+        }
+        .linksRapidos {
+            width: 31%;
+            .link {
+                padding: 10% 0;
+                font-size: .8em;
+            }
+        }
+        .location {
+            width: 95%;
+            .titulosfooter {
+                font-size: 1em;
+            }
+            .locacion {
+                padding-bottom: 0;
+                img {
+                    width: 12%;
+                    padding-right: 7%;
+                    padding-top: 0;
+                    padding-bottom: 2%;
+                }
+                p {
+                    font-size: 0.8em;
+                }
+            }
+            .whatsup {
+                img {
+                    width: 10%;
+                    padding-right: 5%;
+                }
+                p {
+                    font-size: 0.8em;
+                    padding-top: 0;
+                }
+            }
+        }
+    }
+}
+

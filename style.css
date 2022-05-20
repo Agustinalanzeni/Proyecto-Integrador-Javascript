@@ -1,0 +1,1008 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;500;600;700&display=swap");
+body {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+  background-color: #AB7C49;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+header h1 {
+  display: none;
+}
+
+header .logo {
+  width: 30%;
+}
+
+header .logo a {
+  width: 100%;
+  margin-top: 2%;
+}
+
+header .logo a .logo {
+  width: 100%;
+}
+
+header .menu {
+  width: 70%;
+  margin-left: 5%;
+  margin-top: 1.5%;
+}
+
+header .menu ul {
+  width: 100%;
+  padding: 2%;
+}
+
+header .menu ul li {
+  display: inline;
+  width: 100%;
+  padding-right: 10%;
+}
+
+header .menu ul li a {
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: 600;
+  color: #FDEEE2;
+}
+
+header .menu ul li a:hover {
+  color: #F4DBC5;
+}
+
+header .menu ul li i {
+  color: #FDEEE2;
+}
+
+header .menuHamburguesa {
+  background-color: #AB7C49;
+  display: none;
+  position: relative;
+  height: 50px;
+  width: 20%;
+  margin-left: 45%;
+}
+
+header .menuHamburguesa .desplegable {
+  width: 10%;
+  height: 50px;
+}
+
+header .menuHamburguesa .desplegable:hover .dropdown {
+  display: block;
+}
+
+header .menuHamburguesa .desplegable i {
+  position: absolute;
+  left: 50%;
+  top: 38%;
+  color: #FDEEE2;
+}
+
+header .menuHamburguesa .desplegable .dropdown {
+  display: none;
+  width: 100%;
+  position: absolute;
+  top: 40px;
+  right: 65px;
+  padding: 2%;
+  background-color: #FDEEE2;
+}
+
+header .menuHamburguesa .desplegable .dropdown li {
+  display: block;
+  padding: 4% 2%;
+}
+
+header .menuHamburguesa .desplegable .dropdown li a {
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: 600;
+  color: #020202;
+}
+
+header .menuHamburguesa .carrito {
+  position: absolute;
+  top: 35%;
+  left: 15%;
+  color: #FDEEE2;
+}
+
+.flyer {
+  background-color: #AB7C49;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.flyer .bannerHero {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flyer .bannerHero .imgBanner {
+  width: 100%;
+}
+
+.aboutUs {
+  margin: 5% 0;
+  width: 70%;
+  margin-left: 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 5%;
+  border-bottom: #2E2C27 solid 3px;
+}
+
+.aboutUs .text {
+  width: 40%;
+  margin-left: 5%;
+}
+
+.aboutUs .text .titulo {
+  position: relative;
+  height: 100px;
+}
+
+.aboutUs .text .titulo p {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  font-weight: 900;
+  font-size: 2em;
+  color: #47443c;
+}
+
+.aboutUs .text .titulo .cursiva {
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  z-index: 10;
+  font-size: 2.5em;
+  font-family: Pacifico;
+  color: #AB7C49;
+}
+
+.aboutUs .text p {
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.aboutUs .box {
+  width: 50%;
+}
+
+.aboutUs .box img {
+  width: 100%;
+  margin-top: 5%;
+}
+
+.beneficios {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 5%;
+}
+
+.beneficios .col1 {
+  width: 20%;
+}
+
+.beneficios .col1 .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 5%;
+}
+
+.beneficios .col1 .box img {
+  width: 20%;
+  height: 20%;
+  padding-top: 15%;
+}
+
+.beneficios .col1 .box .caja {
+  width: 70%;
+}
+
+.beneficios .col1 .box .caja .titulo {
+  font-size: 1em;
+  font-weight: 700;
+  color: #c8a543;
+  text-align: right;
+}
+
+.beneficios .col1 .box .caja .texto {
+  font-size: .8em;
+  text-align: right;
+}
+
+.beneficios .col2 {
+  width: 20%;
+  padding-top: 5%;
+  padding-right: 5%;
+}
+
+.beneficios .col2 img {
+  width: 130%;
+}
+
+.beneficios .col3 {
+  width: 20%;
+}
+
+.beneficios .col3 .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 5%;
+}
+
+.beneficios .col3 .box img {
+  width: 20%;
+  height: 20%;
+  padding-top: 10%;
+}
+
+.beneficios .col3 .box .image {
+  width: 20%;
+  height: 20%;
+  padding-top: 25%;
+}
+
+.beneficios .col3 .box .caja {
+  width: 70%;
+}
+
+.beneficios .col3 .box .caja .titulo {
+  font-size: 1em;
+  font-weight: 700;
+  color: #c8a543;
+  text-align: left;
+}
+
+.beneficios .col3 .box .caja .texto {
+  font-size: .8em;
+  text-align: left;
+}
+
+.beneficios .col4 {
+  display: none;
+}
+
+.beneficios .col4 img {
+  width: 80%;
+}
+
+.infoBlends {
+  width: 80%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 10%;
+}
+
+.infoBlends .titulos {
+  position: relative;
+  height: 100px;
+}
+
+.infoBlends .titulos .titulo {
+  position: absolute;
+  left: 635px;
+  font-size: 2em;
+  font-weight: 700;
+  color: #47443c;
+  z-index: 10;
+}
+
+.infoBlends .titulos .titulo2 {
+  position: absolute;
+  left: 605px;
+  top: 15px;
+  font-family: Pacifico;
+  font-size: 3em;
+  color: #AB7C49;
+}
+
+.infoBlends .divBlends {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-left: 20%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.infoBlends .divBlends .blend {
+  width: 30%;
+  padding-left: 5%;
+}
+
+.infoBlends .divBlends .blend img {
+  width: 100%;
+}
+
+.infoBlends .divBlends .blend a {
+  text-decoration: none;
+  color: #c8a543;
+  font-size: 1.5em;
+  font-weight: 500;
+  text-align: center;
+}
+
+.infoBlends .divBlends .blend a:hover {
+  color: #47443c;
+}
+
+.infoBlends .divBlends .blend a p:hover {
+  border-bottom: #47443c solid 5px;
+}
+
+.titles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 1% 15%;
+  border-bottom: #2E2C27 solid 3px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.titles h2 {
+  font-size: 2em;
+  color: #2E2C27;
+}
+
+.titles a {
+  text-decoration: none;
+  color: #2E2C27;
+  font-weight: 700;
+  margin-top: 1%;
+}
+
+.titles a:hover {
+  color: #AB7C49;
+  cursor: pointer;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: 5%;
+  padding: 5%;
+  background-color: #AB7C49;
+}
+
+footer .contenedor3 {
+  width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .contenedor3 a img {
+  width: 100%;
+}
+
+footer .contenedor3 .redesSociales {
+  padding-top: 20%;
+}
+
+footer .contenedor3 .redesSociales .titulosfooter {
+  margin-bottom: 2%;
+  font-size: 1.2em;
+  color: #FDEEE2;
+  border-bottom: #FDEEE2 solid 3px;
+}
+
+footer .contenedor3 .redesSociales .instagram {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 5%;
+  padding-top: 2%;
+}
+
+footer .contenedor3 .redesSociales .instagram a {
+  width: 20%;
+  height: 80%;
+}
+
+footer .contenedor3 .redesSociales .instagram a img {
+  width: 50%;
+}
+
+footer .contenedor3 .redesSociales .instagram p {
+  font-size: 1em;
+  color: #FDEEE2;
+}
+
+footer .contenedor3 .redesSociales .facebook {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 5%;
+}
+
+footer .contenedor3 .redesSociales .facebook a {
+  width: 20%;
+  height: 50%;
+}
+
+footer .contenedor3 .redesSociales .facebook a img {
+  width: 50%;
+}
+
+footer .contenedor3 .redesSociales .facebook p {
+  font-size: 1em;
+  color: #FDEEE2;
+}
+
+footer .contenedor3 .redesSociales .twitter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 5%;
+}
+
+footer .contenedor3 .redesSociales .twitter a {
+  width: 20%;
+  height: 50%;
+}
+
+footer .contenedor3 .redesSociales .twitter a img {
+  width: 50%;
+}
+
+footer .contenedor3 .redesSociales .twitter p {
+  font-size: 1em;
+  color: #FDEEE2;
+}
+
+footer .linksRapidos {
+  width: 30%;
+}
+
+footer .linksRapidos .link {
+  display: block;
+  text-align: center;
+  font-size: 1em;
+  font-weight: 600;
+  padding: 4% 8%;
+}
+
+footer .linksRapidos .link a {
+  text-decoration: none;
+  color: #FDEEE2;
+}
+
+footer .linksRapidos .link a:hover {
+  font-weight: 700;
+  color: #FDEEE2;
+  border-bottom: #FDEEE2 solid 3px;
+}
+
+footer .location {
+  width: 30%;
+}
+
+footer .location .titulosfooter {
+  margin-bottom: 2%;
+  font-size: 1.2em;
+  color: #FDEEE2;
+  border-bottom: #FDEEE2 solid 3px;
+}
+
+footer .location .locacion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding-bottom: 5%;
+}
+
+footer .location .locacion img {
+  width: 15%;
+  height: 7%;
+  padding-right: 10%;
+  padding-top: 2%;
+}
+
+footer .location .locacion p {
+  width: 80%;
+  font-size: 1em;
+  color: #FDEEE2;
+}
+
+footer .location .whatsup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 2%;
+}
+
+footer .location .whatsup img {
+  padding-right: 10%;
+  width: 15%;
+  height: 15%;
+}
+
+footer .location .whatsup p {
+  font-size: 1em;
+  color: #FDEEE2;
+  padding-top: 2%;
+}
+
+@media (max-width: 1440px) {
+  header .menu ul li a {
+    font-size: 1em;
+  }
+  .flyer {
+    background-color: #AB7C49;
+    width: 100%;
+  }
+  .aboutUs {
+    width: 80%;
+    margin-left: 10%;
+  }
+  .aboutUs .text .titulo p {
+    font-size: 2.5em;
+  }
+  .aboutUs .text .titulo .cursiva {
+    font-size: 3em;
+    top: 20%;
+  }
+  .aboutUs .text p {
+    font-size: 1.2em;
+  }
+  .aboutUs .box img {
+    width: 100%;
+  }
+  .beneficios {
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .beneficios .col1 {
+    width: 30%;
+  }
+  .beneficios .col1 .box img {
+    padding-top: 0%;
+  }
+  .beneficios .col1 .box .caja {
+    width: 70%;
+  }
+  .beneficios .col1 .box .caja .titulo {
+    font-size: 1.5em;
+  }
+  .beneficios .col1 .box .caja .texto {
+    font-size: 1em;
+  }
+  .beneficios .col2 {
+    width: 20%;
+  }
+  .beneficios .col3 {
+    width: 30%;
+  }
+  .beneficios .col3 .box {
+    padding-top: 7%;
+  }
+  .beneficios .col3 .box img {
+    padding-top: 0%;
+    width: 15%;
+  }
+  .beneficios .col3 .box .image {
+    padding-top: 5%;
+  }
+  .beneficios .col3 .box .caja {
+    width: 70%;
+  }
+  .beneficios .col3 .box .caja .titulo {
+    font-size: 1.5em;
+  }
+  .beneficios .col3 .box .caja .texto {
+    font-size: 1em;
+  }
+  .infoBlends .titulos .titulo {
+    left: 680px;
+  }
+  .infoBlends .titulos .titulo2 {
+    left: 650px;
+  }
+}
+
+@media (max-width: 1024px) {
+  header .menu ul li {
+    padding-right: 5%;
+  }
+  header .menu ul li a {
+    font-size: 1em;
+  }
+  .aboutUs {
+    width: 100%;
+    margin-left: 0%;
+  }
+  .aboutUs .text .titulo p {
+    font-size: 2.5em;
+  }
+  .aboutUs .text .titulo .cursiva {
+    font-size: 3em;
+    top: 20%;
+  }
+  .aboutUs .text p {
+    font-size: 1em;
+  }
+  .aboutUs .box img {
+    width: 100%;
+  }
+  .beneficios {
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .beneficios .col1 {
+    width: 35%;
+  }
+  .beneficios .col1 .box .caja .titulo {
+    font-size: 1.2em;
+  }
+  .beneficios .col1 .box .caja .texto {
+    font-size: .8em;
+  }
+  .beneficios .col2 {
+    width: 20%;
+  }
+  .beneficios .col3 {
+    width: 35%;
+  }
+  .beneficios .col3 .box {
+    padding-top: 5%;
+  }
+  .beneficios .col3 .box .caja .titulo {
+    font-size: 1.2em;
+  }
+  .beneficios .col3 .box .caja .texto {
+    font-size: 0.8em;
+  }
+  .infoBlends .titulos .titulo {
+    left: 460px;
+  }
+  .infoBlends .titulos .titulo2 {
+    left: 430px;
+  }
+  .infoBlends .divBlends .blend a {
+    font-size: 1.2em;
+  }
+}
+
+@media (max-width: 768px) {
+  header .menu {
+    display: none;
+  }
+  header .menuHamburguesa {
+    display: block;
+  }
+  .aboutUs .text .titulo p {
+    font-size: 2em;
+  }
+  .aboutUs .text .titulo .cursiva {
+    font-size: 2.5em;
+    top: 20%;
+  }
+  .aboutUs .text p {
+    font-size: .8em;
+  }
+  .beneficios {
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .beneficios .col1 .box {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .beneficios .col1 .box img {
+    width: 15%;
+    padding-top: 5%;
+    margin-left: 5%;
+  }
+  .beneficios .col1 .box .caja .titulo {
+    font-size: 1em;
+    margin-bottom: 0rem;
+  }
+  .beneficios .col1 .box .caja .texto {
+    font-size: 0.8em;
+  }
+  .beneficios .col2 img {
+    padding-top: 50%;
+  }
+  .beneficios .col3 .box {
+    padding-top: 5%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .beneficios .col3 .box img {
+    width: 10%;
+    padding-top: 5%;
+    margin-right: 5%;
+  }
+  .beneficios .col3 .box .image {
+    width: 10%;
+    padding-top: 10%;
+    margin-right: 5%;
+  }
+  .beneficios .col3 .box .caja .titulo {
+    font-size: 1em;
+    margin-bottom: 0rem;
+  }
+  .beneficios .col3 .box .caja .texto {
+    font-size: 0.8em;
+  }
+  .infoBlends .titulos .titulo {
+    left: 340px;
+  }
+  .infoBlends .titulos .titulo2 {
+    left: 310px;
+  }
+  .infoBlends .divBlends .blend a {
+    font-size: 1em;
+  }
+  .titles h2 {
+    font-size: 1.2em;
+  }
+  footer .contenedor3 a img {
+    height: 100%;
+  }
+  footer .contenedor3 .redesSociales .instagram a img, footer .contenedor3 .redesSociales .facebook a img, footer .contenedor3 .redesSociales .twitter a img {
+    width: 70%;
+  }
+  footer .contenedor3 .redesSociales .instagram p, footer .contenedor3 .redesSociales .facebook p, footer .contenedor3 .redesSociales .twitter p {
+    font-size: 0.8em;
+  }
+  footer .location .locacion img {
+    width: 20%;
+  }
+  footer .location .locacion p {
+    font-size: .8em;
+  }
+  footer .location .whatsup img {
+    width: 20%;
+    height: 20%;
+  }
+  footer .location .whatsup p {
+    font-size: .8em;
+  }
+}
+
+@media (max-width: 480px) {
+  header .logo {
+    width: 40%;
+  }
+  header .menuHamburguesa .desplegable .dropdown {
+    width: 150%;
+    right: 34%;
+  }
+  .aboutUs {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .aboutUs .box {
+    width: 100%;
+  }
+  .aboutUs .box img {
+    width: 80%;
+    margin-left: 10%;
+  }
+  .aboutUs .text {
+    width: 90%;
+  }
+  .aboutUs .text .titulo p {
+    font-size: 1.5em;
+  }
+  .beneficios {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .beneficios .col1 {
+    width: 50%;
+  }
+  .beneficios .col1 .box img {
+    width: 20%;
+  }
+  .beneficios .col1 .box .caja .titulo {
+    text-align: right;
+  }
+  .beneficios .col1 .box .caja .texto {
+    text-align: right;
+    font-size: .7em;
+  }
+  .beneficios .col2 {
+    width: 40%;
+  }
+  .beneficios .col2 img {
+    padding-top: 20%;
+  }
+  .beneficios .col3 {
+    width: 50%;
+  }
+  .beneficios .col3 .box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .beneficios .col3 .box img {
+    width: 15%;
+  }
+  .beneficios .col3 .box .image {
+    width: 15%;
+  }
+  .beneficios .col3 .box .caja .titulo {
+    text-align: right;
+  }
+  .beneficios .col3 .box .caja .texto {
+    text-align: right;
+    font-size: .7em;
+  }
+  .beneficios .col4 {
+    display: block;
+    width: 40%;
+    padding-left: 4%;
+    padding-top: 5%;
+  }
+  .beneficios .col4 img {
+    width: 80%;
+    padding-top: 20%;
+  }
+  .infoBlends {
+    width: 100%;
+  }
+  .infoBlends .titulos .titulo {
+    left: 210px;
+  }
+  .infoBlends .titulos .titulo2 {
+    left: 180px;
+  }
+  .infoBlends .divBlends {
+    margin-left: 0%;
+  }
+  .titles {
+    margin: 1% 2%;
+  }
+  .titles h2 {
+    font-size: 1em;
+    margin-bottom: 0rem;
+  }
+  .titles a {
+    margin-top: 0%;
+  }
+  footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  footer .contenedor3 {
+    width: 60%;
+  }
+  footer .contenedor3 .redesSociales {
+    padding-top: 3%;
+  }
+  footer .contenedor3 .redesSociales .titulosfooter {
+    display: none;
+  }
+  footer .contenedor3 .redesSociales .instagram p {
+    font-size: 0.8em;
+  }
+  footer .contenedor3 .redesSociales .instagram a {
+    width: 15%;
+    padding-left: 0;
+  }
+  footer .contenedor3 .redesSociales .instagram a img {
+    width: 50%;
+  }
+  footer .contenedor3 .redesSociales .facebook p {
+    font-size: 0.8em;
+  }
+  footer .contenedor3 .redesSociales .facebook a {
+    width: 15%;
+    padding-left: 0;
+  }
+  footer .contenedor3 .redesSociales .facebook a img {
+    width: 50%;
+  }
+  footer .contenedor3 .redesSociales .twitter p {
+    font-size: 0.8em;
+  }
+  footer .contenedor3 .redesSociales .twitter a {
+    width: 15%;
+    padding-left: 0;
+  }
+  footer .contenedor3 .redesSociales .twitter a img {
+    width: 50%;
+  }
+  footer .linksRapidos {
+    width: 31%;
+  }
+  footer .linksRapidos .link {
+    padding: 10% 0;
+    font-size: .8em;
+  }
+  footer .location {
+    width: 95%;
+  }
+  footer .location .titulosfooter {
+    font-size: 1em;
+  }
+  footer .location .locacion {
+    padding-bottom: 0;
+  }
+  footer .location .locacion img {
+    width: 12%;
+    padding-right: 7%;
+    padding-top: 0;
+    padding-bottom: 2%;
+  }
+  footer .location .locacion p {
+    font-size: 0.8em;
+  }
+  footer .location .whatsup img {
+    width: 10%;
+    padding-right: 5%;
+  }
+  footer .location .whatsup p {
+    font-size: 0.8em;
+    padding-top: 0;
+  }
+}
+/*# sourceMappingURL=style.css.map */

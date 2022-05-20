@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/91270d23e6.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style3.css">
+    <title>The Coffee Shop</title>
+</head>
+<body>
+    <div class="ventanaPopUp" id="ventanaPopUp">
+        <p><span id="nombreUsuario"></span>, te damos la bienvenida a The Coffee Shop.</p>
+        <button class="botonAceptar" id="botonAceptar">Aceptar</button>
+    </div>
+    <header>
+        <h1>Cofi Deli</h1>
+        <div class="logo">
+            <a href="./index.html"><img src="./assets/LOGO FINAL.png" alt="" class="logo"></a>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="./index.html">HOME</a></li>
+                <li><a href="./productos.html">NUESTROS PRODUCTOS</a></li>
+                <li><a href="./login.html">LOGIN</a></li>
+            </ul>
+        </nav>
+        <nav class="menuHamburguesa">
+            <div class="desplegable">
+                <i class="fas fa-bars"></i>
+                <ul class="dropdown">
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="./productos.html">NUESTROS PRODUCTOS</a></li>
+                    <li><a href="./login.html">LOGIN</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <h2>Iniciar sesión</h2>
+    <div class="contenedor">
+        <div class="containerLogin">
+            <img src="./assets/iconopersona2.png" alt="">
+            <form class="cajaLogin" id="form">
+                <label class="login" for="">
+                    <input type="text" name="suscriberName" placeholder="Username" id="username">
+                    <small>Error!</small>
+                </label>
+                <label class="login" for="">
+                    <input type="text" name="suscriberName" id="email" placeholder="email">
+                    <small>Error!</small>
+                </label>
+                <label class="login" for="">
+                    <input type="password" name="suscriberName" id="password" placeholder="Password">
+                    <small>Error!</small>
+                </label>
+                <a href="*" class="forget">Olvidaste la contraseña</a>
+                <button>LOGIN</button>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <div class="contenedor3">
+            <a href="*"><img src="./assets/LOGO FINAL.png" alt=""></a>
+            <div class="redesSociales">
+                <h3 class="titulosfooter">Síguenos en:</h3>
+                <div class="instagram">
+                    <a href="*"><img src="./assets/instagramblanco.png" alt=""></a>
+                    <p>@coffeeshop</p>
+                </div>
+                <div class="facebook">
+                    <a href="*"><img src="./assets/facebookblanco.png" alt=""></a>
+                    <p>The coffee shop</p>
+                </div>
+                <div class="twitter">
+                    <a href="*"><img src="./assets/twitterblanco.png" alt=""></a>
+                    <p>@the_coffee_shop</p>
+                </div>
+            </div>
+        </div>
+        <div class="linksRapidos">
+            <p class="link"><a href="./index.html">HOME</a></p>
+            <p class="link"><a href="./productos.html">PRODUCTOS</a></p>
+            <p class="link"><a href="./login.html">LOGIN</a></p>
+        </div>
+        <div class="location">
+            <h3 class="titulosfooter">Visítanos</h3>
+            <div class="locacion">
+                <img src="./assets/ubicacionblanca.png" alt="">
+                <p>400 Concar Dr, 03-140, San Mateo, CA 94402</p>
+            </div>
+            <div class="locacion">
+                <img src="./assets/ubicacionblanca.png" alt="">
+                <p>400 Concar Dr, 03-140, San Mateo, CA 94402</p>
+            </div>
+            <h3 class="titulosfooter">Contáctanos</h3>
+            <div class="whatsup">
+                <img src="./assets/telefonoblanco.png" alt="">
+                <p>123456789</p>
+            </div>
+        </div>
+    </footer>
+    <script src="./login.js"></script>
+</body>
+</html>

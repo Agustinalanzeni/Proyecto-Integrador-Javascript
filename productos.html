@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/91270d23e6.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style2.css">
+    <title>The Coffee Shop</title>
+</head>
+<body>
+    <header>
+        <h1>Cofi Deli</h1>
+        <div class="logo">
+            <a href="./index.html"><img src="./assets/LOGO FINAL.png" alt="" class="logo"></a>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="./index.html">HOME</a></li>
+                <li><a href="./productos.html">NUESTROS PRODUCTOS</a></li>
+                <li><a href="./login.html">LOGIN</a></li>
+            </ul>
+        </nav>
+        <nav class="menuHamburguesa">
+            <div class="desplegable">
+                <i class="fas fa-bars"></i>
+                <ul class="dropdown">
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="./productos.html">NUESTROS PRODUCTOS</a></li>
+                    <li><a href="./login.html">LOGIN</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <div class="columna">
+            <div class="categorias">
+                <h2>Categorías</h2>
+                <form id="formCategorias" action="">
+                    <label for="">Café en granos 
+                        <input type="radio" name="categoria" id="" value="1">
+                    </label>
+                    <label for="">Café caliente 
+                        <input type="radio" name="categoria" id="" value="2">
+                    </label>
+                    <label for="">Café frío
+                        <input type="radio" name="categoria" id="" value="3">
+                    </label>
+                </form>
+            </div>
+            <div class="carrito" id="carrito">
+                <h2>Carrito</h2>
+                <p id="mensaje">No hay productos en el carrito</p>
+            </div>
+            <div class="total">
+                <p>Subtotal: $<span class="subtotal">0.00</span></p>
+            </div>
+        </div>
+        <div class="contenedorProductos">
+            <div class="cafeGrano" id="cafeGrano">
+                <div class="producto">
+                    <img src="./assets/productos/abednego-bag_0000_guatemala.png" alt="" class="imagenProducto"> 
+                    <p class="nombreProducto">Café en grano proveniente de Guatemala, roast medio</p>
+                    <p class="precio">$2400</p>
+                    <button class="botonCarrito">Agregar al Carrito</button>
+                </div>
+                <div class="producto">
+                    <img src="./assets/productos/abednego-bag_0003_colombia.png" alt="" class="imagenProducto"> 
+                    <p class="nombreProducto">Café en grano proveniente de Colombia, roast medio-oscuro</p>
+                    <p class="precio">$2400</p>
+                    <button class="botonCarrito">Agregar al Carrito</button>
+                </div>
+                <div class="producto">
+                    <img src="./assets/productos/abednego-bag_0004_honduras.png" alt="" class="imagenProducto"> 
+                    <p class="nombreProducto">Café en grano proveniente de Honduras, roast suave</p>
+                    <p class="precio">$2400</p>
+                    <button class="botonCarrito">Agregar al Carrito</button>
+                </div>
+            </div>
+            <div class="cafeCaliente" id="cafeCaliente">
+                <div class="producto">
+                    <img src="./assets/productos/cafe expresso.png" alt="" class="imagenProducto"> 
+                    <p class="nombreProducto">Café Expresso</p>
+                    <p class="precio">$110</p>
+                    <button class="botonCarrito">Agregar al Carrito</button>
+                </div>
+                <div class="producto">
+                    <img src="./assets/productos/capucchin.png" alt="" class="imagenProducto"> 
+                    <p class="nombreProducto">Capucchino</p>
+                    <p class="precio">$170</p>
+                    <button class="botonCarrito">Agregar al Carrito</button>
+                </div>
+                <div class="producto">
+                    <img src="./assets/productos/caramel-macchiato.png" alt="" class="imagenProducto"> 
+                    <p class="nombreProducto">Caramel Macchiato</p>
+                    <p class="precio">$190</p>
+                    <button class="botonCarrito">Agregar al Carrito</button>
+                </div>
+            </div>
+            <div class="cafeFrio" id="cafeFrio">
+                <div class="producto">
+                    <img src="./assets/productos/frapucchino mocha.png" alt="" class="imagenProducto"> 
+                    <p class="nombreProducto">Frapucchino Mocha</p>
+                    <p class="precio">$150</p>
+                    <button class="botonCarrito">Agregar al Carrito</button>
+                </div>
+                <div class="producto">
+                    <img src="./assets/productos/frapucchino oreo.png" alt="" class="imagenProducto"> 
+                    <p class="nombreProducto">Frapucchino Oreo</p>
+                    <p class="precio">$180</p>
+                    <button class="botonCarrito">Agregar al Carrito</button>
+                </div>
+                <div class="producto">
+                    <img src="./assets/productos/cafe helado matcha.png" alt="" class="imagenProducto"> 
+                    <p class="nombreProducto">Café helado de Matcha</p>
+                    <p class="precio">$220</p>
+                    <button class="botonCarrito">Agregar al Carrito</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="contenedor3">
+            <a href="*"><img src="./assets/LOGO FINAL.png" alt=""></a>
+            <div class="redesSociales">
+                <h3 class="titulosfooter">Síguenos en:</h3>
+                <div class="instagram">
+                    <a href="*"><img src="./assets/instagramblanco.png" alt=""></a>
+                    <p>@coffeeshop</p>
+                </div>
+                <div class="facebook">
+                    <a href="*"><img src="./assets/facebookblanco.png" alt=""></a>
+                    <p>The coffee shop</p>
+                </div>
+                <div class="twitter">
+                    <a href="*"><img src="./assets/twitterblanco.png" alt=""></a>
+                    <p>@the_coffee_shop</p>
+                </div>
+            </div>
+        </div>
+        <div class="linksRapidos">
+            <p class="link"><a href="./index.html">HOME</a></p>
+            <p class="link"><a href="./productos.html">PRODUCTOS</a></p>
+            <p class="link"><a href="./login.html">LOGIN</a></p>
+        </div>
+        <div class="location">
+            <h3 class="titulosfooter">Visítanos</h3>
+            <div class="locacion">
+                <img src="./assets/ubicacionblanca.png" alt="">
+                <p>400 Concar Dr, 03-140, San Mateo, CA 94402</p>
+            </div>
+            <div class="locacion">
+                <img src="./assets/ubicacionblanca.png" alt="">
+                <p>400 Concar Dr, 03-140, San Mateo, CA 94402</p>
+            </div>
+            <h3 class="titulosfooter">Contáctanos</h3>
+            <div class="whatsup">
+                <img src="./assets/telefonoblanco.png" alt="">
+                <p>123456789</p>
+            </div>
+        </div>
+    </footer>
+    <script src="./index.js"></script>
+</body>
+</html>

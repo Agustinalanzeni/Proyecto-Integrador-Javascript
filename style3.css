@@ -1,0 +1,613 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;500;600;700&display=swap");
+body {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  font-family: 'Poppins', sans-serif;
+}
+
+.ventanaPopUp {
+  background-color: whitesmoke;
+  width: 50%;
+  color: #47443c;
+  font-size: 2em;
+  text-align: center;
+  padding: 2%;
+  border-radius: 10px;
+  position: absolute;
+  left: 25%;
+  top: 50%;
+  display: none;
+}
+
+.ventanaPopUp .botonAceptar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3%;
+  margin-top: 2%;
+  padding: 2% 3%;
+  width: 40%;
+  font-size: 1em;
+  cursor: pointer;
+  border: none;
+  background-color: #8a8a8a;
+  color: #020202;
+  border-radius: 5px;
+}
+
+.ventanaPopUp .botonAceptar:hover {
+  background-color: #d0cfcf;
+}
+
+header {
+  background-color: #AB7C49;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+header h1 {
+  display: none;
+}
+
+header .logo {
+  width: 30%;
+}
+
+header .logo a {
+  width: 100%;
+  margin-top: 2%;
+}
+
+header .logo a .logo {
+  width: 100%;
+}
+
+header .menu {
+  width: 70%;
+  margin-left: 5%;
+  margin-top: 1.5%;
+}
+
+header .menu ul {
+  width: 100%;
+  padding: 2%;
+}
+
+header .menu ul li {
+  display: inline;
+  width: 100%;
+  padding-right: 10%;
+}
+
+header .menu ul li a {
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: 600;
+  color: #FDEEE2;
+}
+
+header .menu ul li a:hover {
+  color: #F4DBC5;
+}
+
+header .menu ul li i {
+  color: #FDEEE2;
+}
+
+header .menuHamburguesa {
+  background-color: #AB7C49;
+  display: none;
+  position: relative;
+  height: 50px;
+  width: 20%;
+  margin-left: 45%;
+}
+
+header .menuHamburguesa .desplegable {
+  width: 10%;
+  height: 50px;
+}
+
+header .menuHamburguesa .desplegable:hover .dropdown {
+  display: block;
+}
+
+header .menuHamburguesa .desplegable i {
+  position: absolute;
+  left: 50%;
+  top: 38%;
+  color: #FDEEE2;
+}
+
+header .menuHamburguesa .desplegable .dropdown {
+  display: none;
+  width: 100%;
+  position: absolute;
+  top: 40px;
+  right: 65px;
+  padding: 2%;
+  background-color: #FDEEE2;
+}
+
+header .menuHamburguesa .desplegable .dropdown li {
+  display: block;
+  padding: 4% 2%;
+}
+
+header .menuHamburguesa .desplegable .dropdown li a {
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: 600;
+  color: #020202;
+}
+
+header .menuHamburguesa .iconoCarrito {
+  position: absolute;
+  top: 35%;
+  left: 15%;
+  color: #FDEEE2;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2em;
+  color: #47443c;
+}
+
+.containerLogin {
+  width: 40%;
+  margin: 2%;
+  padding: 1%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffffff;
+  border: #47443c 1px solid;
+}
+
+.containerLogin img {
+  width: 20%;
+  margin-left: 40%;
+  margin-bottom: 1%;
+  margin-top: 1%;
+}
+
+.containerLogin .cajaLogin .login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 8%;
+  width: 100%;
+}
+
+.containerLogin .cajaLogin .login input {
+  width: 80%;
+  margin-bottom: 3%;
+  padding: 2% 2%;
+  background-color: #FDEEE2;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.containerLogin .cajaLogin .login .success input {
+  border-color: #00c854;
+}
+
+.containerLogin .cajaLogin .login i.success {
+  color: #00c854;
+  display: none;
+}
+
+.containerLogin .cajaLogin .login .error input {
+  border-color: #ff6b5b;
+}
+
+.containerLogin .cajaLogin .login i.error {
+  color: #ff6b5b;
+  display: none;
+}
+
+.containerLogin .cajaLogin .login small {
+  visibility: hidden;
+  color: #ff6b5b;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.containerLogin .cajaLogin .login small.error {
+  visibility: visible;
+}
+
+.containerLogin .cajaLogin a {
+  color: #020202;
+  font-size: .8em;
+  margin-left: 35%;
+}
+
+.containerLogin .cajaLogin button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3%;
+  margin-top: 2%;
+  padding: 2% 3%;
+  width: 30%;
+  font-size: 1.5em;
+  cursor: pointer;
+  border: none;
+  background-color: #FDEEE2;
+  color: #020202;
+  border-radius: 20px;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: 5%;
+  padding: 5%;
+  background-color: #AB7C49;
+}
+
+footer .contenedor3 {
+  width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .contenedor3 a img {
+  width: 100%;
+}
+
+footer .contenedor3 .redesSociales {
+  padding-top: 20%;
+}
+
+footer .contenedor3 .redesSociales .titulosfooter {
+  margin-bottom: 2%;
+  font-size: 1.2em;
+  color: #FDEEE2;
+  border-bottom: #FDEEE2 solid 3px;
+}
+
+footer .contenedor3 .redesSociales .instagram {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 5%;
+  padding-top: 2%;
+}
+
+footer .contenedor3 .redesSociales .instagram a {
+  width: 20%;
+  height: 80%;
+}
+
+footer .contenedor3 .redesSociales .instagram a img {
+  width: 50%;
+  padding-top: 20%;
+}
+
+footer .contenedor3 .redesSociales .instagram p {
+  font-size: 1em;
+  color: #FDEEE2;
+}
+
+footer .contenedor3 .redesSociales .facebook {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 5%;
+}
+
+footer .contenedor3 .redesSociales .facebook a {
+  width: 20%;
+  height: 50%;
+}
+
+footer .contenedor3 .redesSociales .facebook a img {
+  width: 50%;
+  padding-top: 20%;
+}
+
+footer .contenedor3 .redesSociales .facebook p {
+  font-size: 1em;
+  color: #FDEEE2;
+}
+
+footer .contenedor3 .redesSociales .twitter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 5%;
+}
+
+footer .contenedor3 .redesSociales .twitter a {
+  width: 20%;
+  height: 50%;
+}
+
+footer .contenedor3 .redesSociales .twitter a img {
+  width: 50%;
+  padding-top: 20%;
+}
+
+footer .contenedor3 .redesSociales .twitter p {
+  font-size: 1em;
+  color: #FDEEE2;
+}
+
+footer .linksRapidos {
+  width: 30%;
+}
+
+footer .linksRapidos .link {
+  display: block;
+  text-align: center;
+  font-size: 1em;
+  font-weight: 600;
+  padding: 4% 8%;
+}
+
+footer .linksRapidos .link a {
+  text-decoration: none;
+  color: #FDEEE2;
+}
+
+footer .linksRapidos .link a:hover {
+  font-weight: 700;
+  color: #FDEEE2;
+  border-bottom: #FDEEE2 solid 3px;
+}
+
+footer .location {
+  width: 30%;
+}
+
+footer .location .titulosfooter {
+  margin-bottom: 2%;
+  font-size: 1.2em;
+  color: #FDEEE2;
+  border-bottom: #FDEEE2 solid 3px;
+}
+
+footer .location .locacion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding-bottom: 5%;
+}
+
+footer .location .locacion img {
+  width: 7%;
+  height: 7%;
+  padding-right: 5%;
+  padding-top: 7%;
+}
+
+footer .location .locacion p {
+  width: 80%;
+  font-size: 1em;
+  color: #FDEEE2;
+}
+
+footer .location .whatsup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 2%;
+}
+
+footer .location .whatsup img {
+  padding-right: 5%;
+  padding-top: 4%;
+  width: 7%;
+  height: 7%;
+}
+
+footer .location .whatsup p {
+  font-size: 1em;
+  color: #FDEEE2;
+}
+
+@media (max-width: 1440px) {
+  header .menu ul li a {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 1024px) {
+  header .menu ul li {
+    padding-right: 5%;
+  }
+  header .menu ul li a {
+    font-size: 1em;
+  }
+  .containerLogin .select input {
+    margin: 2% 10%;
+  }
+  .containerLogin .cajaLogin a {
+    margin: 2%;
+    margin-left: 30%;
+  }
+}
+
+@media (max-width: 768px) {
+  header .menu {
+    display: none;
+  }
+  header .menuHamburguesa {
+    display: block;
+  }
+  .containerLogin {
+    width: 70%;
+  }
+  .containerLogin .cajaLogin .select input {
+    margin-left: 18%;
+    margin-right: 5%;
+    margin-top: 1%;
+  }
+  .containerLogin .cajaLogin a {
+    margin-left: 36%;
+  }
+  footer .contenedor3 a img {
+    height: 100%;
+  }
+  footer .contenedor3 .redesSociales .instagram a img,
+  footer .contenedor3 .redesSociales .facebook a img,
+  footer .contenedor3 .redesSociales .twitter a img {
+    width: 70%;
+  }
+  footer .contenedor3 .redesSociales .instagram p,
+  footer .contenedor3 .redesSociales .facebook p,
+  footer .contenedor3 .redesSociales .twitter p {
+    font-size: 0.8em;
+  }
+  footer .location .locacion img {
+    width: 10%;
+  }
+  footer .location .locacion p {
+    font-size: .8em;
+  }
+  footer .location .whatsup img {
+    width: 10%;
+    height: 10%;
+  }
+  footer .location .whatsup p {
+    font-size: .8em;
+  }
+}
+
+@media (max-width: 480px) {
+  header .logo {
+    width: 40%;
+  }
+  header .menuHamburguesa .desplegable .dropdown {
+    width: 150%;
+    right: 34%;
+  }
+  .containerLogin {
+    width: 70%;
+  }
+  .containerLogin .cajaLogin .login input {
+    width: 80%;
+    font-size: 1.2em;
+  }
+  .containerLogin .cajaLogin .select {
+    font-size: 0.8em;
+  }
+  .containerLogin .cajaLogin .select input {
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-top: 1%;
+  }
+  .containerLogin .cajaLogin a {
+    margin-left: 25%;
+  }
+  .containerLogin .cajaLogin button {
+    font-size: 1.2em;
+  }
+  footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  footer .contenedor3 {
+    width: 60%;
+  }
+  footer .contenedor3 .redesSociales {
+    padding-top: 3%;
+  }
+  footer .contenedor3 .redesSociales .titulosfooter {
+    display: none;
+  }
+  footer .contenedor3 .redesSociales .instagram p {
+    font-size: 0.8em;
+  }
+  footer .contenedor3 .redesSociales .instagram a {
+    width: 20%;
+    padding-left: 0;
+    padding-top: 2%;
+  }
+  footer .contenedor3 .redesSociales .instagram a img {
+    width: 50%;
+  }
+  footer .contenedor3 .redesSociales .facebook p {
+    font-size: 0.8em;
+  }
+  footer .contenedor3 .redesSociales .facebook a {
+    width: 20%;
+    padding-left: 0;
+    padding-top: 2%;
+  }
+  footer .contenedor3 .redesSociales .facebook a img {
+    width: 50%;
+  }
+  footer .contenedor3 .redesSociales .twitter p {
+    font-size: 0.8em;
+  }
+  footer .contenedor3 .redesSociales .twitter a {
+    width: 20%;
+    padding-left: 0;
+    padding-top: 2%;
+  }
+  footer .contenedor3 .redesSociales .twitter a img {
+    width: 50%;
+  }
+  footer .linksRapidos {
+    width: 31%;
+  }
+  footer .linksRapidos .link {
+    padding: 10% 0;
+    font-size: .8em;
+  }
+  footer .location {
+    width: 95%;
+  }
+  footer .location .titulosfooter {
+    font-size: 1em;
+  }
+  footer .location .locacion {
+    padding-bottom: 0;
+  }
+  footer .location .locacion img {
+    width: 6%;
+    padding-right: 7%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+  footer .location .locacion p {
+    font-size: 0.8em;
+  }
+  footer .location .whatsup img {
+    width: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+  }
+  footer .location .whatsup p {
+    font-size: 0.8em;
+    padding-top: 0;
+  }
+}
+/*# sourceMappingURL=style3.css.map */
